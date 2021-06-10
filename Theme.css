@@ -107,7 +107,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     align-items: center;
     justify-content: center;
     position: relative;
-    color: #facfffc2!important;
+    color: #1f1f1f !important;
     border: none;
     margin: 0;
     text-decoration: none;
@@ -197,7 +197,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 
 
 :host-context(lol-uikit-navigation-bar[type=nav-bar]) .section.active {
-    background-image: linear-gradient(0deg, rgba(23, 22, 22, 0.86) 0%, rgba(31,37,38,0) 55%);
+    background-image: linear-gradient(0deg, rgba(23, 22, 22, 0.86) 0%, rgba(0, 0, 0, 0.92) 55%);
     color: #fdfdfd !important;
 }
 
@@ -237,7 +237,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     -webkit-font-smoothing: subpixel-antialiased;
 }
 .member-status{
-    color: #7cd87c !important;
+    color: #ffffff!important;
     text-shadow: 1px  1px 1px #000000 !important; 
 }
 
@@ -248,7 +248,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     cursor: pointer;
     display: flex;
     margin-bottom: 4px;
-    color: rgba(255,255,255,1)!important;
+    color: rgba(0, 0, 0, 0.86)!important;
     font-size: 12px;
     font-weight: 700;
     line-height: 16px;
@@ -493,7 +493,7 @@ lol-uikit-content-block.parties-status-card-info h6 .parties-status-card-header-
   cursor: pointer;
 }
 :host .parties-status-card.open {
-  background: #143c14;
+  background: #ffffff;
 }
 :host .parties-status-card.closed {
   background: #1f1f1f;
@@ -668,7 +668,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 }
 
 .section.active, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section.active {
-    color: #846bff;
+    color: #292929;
     text-shadow: 0px 0px 21px #292927 !important;
     /* opacity: 1; */
 }
@@ -868,7 +868,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 }
 
 .friend-requests-header {
-    color: #ffc13d !important; 
+    color: #ffffff!important; 
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -888,7 +888,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 }
 
 .player-party-controls.main-player-controls .parties-player-labels-wrapper .parties-player-name-container .parties-player-name {
-    color: #fabe0a;
+    color: #ffffff;
     max-width: 170px;
     filter: brightness(0) invert(1)!important;
 }
@@ -1320,7 +1320,7 @@ filter: hue-rotate(170deg);
   content: '';
   -webkit-mask: url(/fe/lol-parties/icon_warning_mask.png) no-repeat center;
   -webkit-mask-size: contain;
-  background-color: #c89b3c;
+  background-color: #2b2b2b;
 }
 :host .parties-game-search-elapsed.priority-alert::before {
   position: relative;
@@ -1404,7 +1404,7 @@ filter: hue-rotate(170deg);
 
     position: relative;
     width: 100%;
-    background-color: #03030a;
+    background-color: #171717;
     height: 100%;
     top: 0;
     left: 0;
@@ -1510,10 +1510,10 @@ lol-uikit-content-block.parties-status-card-info h6 .parties-status-card-header-
   cursor: pointer;
 }
 :host .parties-status-card.open {
-  background: #143c14;
+  background: #ffffff;
 }
 :host .parties-status-card.closed {
-  background: #0d2641;
+  background: #292929;
 }
 :host .parties-status-card .parties-status-card-bg-container {
   position: absolute;
